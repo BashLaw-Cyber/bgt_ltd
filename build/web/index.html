@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Bashlaw Global Technologies LTD (RC No. 9342384) — Engineering Tomorrow's Digital Future. IT Solutions, Telecom Engineering, Cybersecurity, Cloud Computing, and Digital Transformation.">
+  <meta name="keywords" content="Bashlaw, Bashlaw Global Technologies, IT Solutions Nigeria, Telecom Engineering Nigeria, Cybersecurity Nigeria, Cloud Computing Nigeria, Software Development Nigeria">
+  <meta name="author" content="Bashlaw Global Technologies LTD">
+  <meta property="og:title" content="Bashlaw Global Technologies LTD">
+  <meta property="og:description" content="RC No. 9342384 — Engineering Tomorrow's Digital Future. IT Solutions, Telecom Engineering, Cybersecurity & Cloud Computing.">
+  <meta property="og:type" content="website">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Bashlaw Global Tech">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Bashlaw Global Technologies LTD</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #040D1A;
+    }
+    #loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      background: #040D1A;
+      font-family: 'Rajdhani', sans-serif;
+    }
+    .loader-logo {
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, #00D4FF, #0099CC);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 900;
+      color: #040D1A;
+      margin-bottom: 20px;
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    .loader-text {
+      color: #8899AA;
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-family: sans-serif;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.8; }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <div class="loader-logo">BG</div>
+    <div class="loader-text">LOADING...</div>
+  </div>
+
+  <script>
+    window.addEventListener('flutter-first-frame', function() {
+      const loading = document.getElementById('loading');
+      if (loading) loading.style.display = 'none';
+    });
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
