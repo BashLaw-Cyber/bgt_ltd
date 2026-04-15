@@ -1,0 +1,1 @@
+ C:\\Users\\AMTECH_LTD\\OneDrive\\Desktop\\bashlaw_final_web\\build\\web\\manifest.json:  C:\\Users\\AMTECH_LTD\\OneDrive\\Desktop\\bashlaw_final_web\\web\\index.html C:\\Users\\AMTECH_LTD\\OneDrive\\Desktop\\bashlaw_final_web\\web\\manifest.json
